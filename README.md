@@ -20,10 +20,10 @@
 
 - [Quick start](#quick-start)
 - [Status](#status)
+- [Start](#start)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
-
 
 ## Quick start
 
@@ -44,7 +44,16 @@ This repository allows you to search for information on students from the Bolivi
 ├── main.go
 └── README.md
 ```
-
+## Start
+```
+Usage of ./main:
+  -file string
+    	Envia la ruta de un archivo json alternativo (default "None")
+  -generate string
+    	Genera lo necesario para realizar las consultas [json or string] (default "None")
+  -search string
+    	Busca un cliente en la api "Nombre apellido_pat apellido_mat" (default "None")
+```
 ## Creators
 
 **Creator 1**
