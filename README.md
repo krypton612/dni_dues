@@ -54,6 +54,72 @@ Usage of ./main:
   -search string
     	Busca un cliente en la api "Nombre apellido_pat apellido_mat" (default "None")
 ```
+./main -generate string
+
+```json
+
+{
+  "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbWkiLCJleHAiOjE2NTkzMTMwODJ9.2v4DrLXNeypdeI3pQaCOZOWNwVXzm30wSaVQR6cjBSh_2MRyWx0AKKrQUsJNZG0YB422wXvYt73DUMINZ57Ixg",
+  "username": "emi",
+  "publicId": "7KZ7Yp70vwU4tCRe",
+  "sessionId": "-1120421761202207211591",
+  "moduleId": "91",
+  "orgId": "9ozphlqx",
+  "merchantId": "redenlace_429777",
+  "logo": "logo-emi.png",
+  "code": 100
+}    
+```
+./main -search "efrain colque calizaya"
+
+```json
+{
+  "code": 100,
+  "items": [
+    {
+      "codError": 0,
+      "mensaje": "",
+      "cuenta": [
+        {
+          "cuenta": "13130204;1;102/20;106",
+          "descServicio": "Recaudacion deuda EMI en BS.",
+          "detalle": "CIENCIAS BASICAS-Oficina Central EMI",
+          "moneda": 1,
+          "nombre": "COLQUE CALIZAYA EFRAIN",
+          "servicio": 1
+        },
+        {
+          "cuenta": "13130204;1;101/22;101",
+          "descServicio": "Recaudacion deuda EMI en BS.",
+          "detalle": "ING. SISTEMAS-Oficina Central EMI",
+          "moneda": 1,
+          "nombre": "COLQUE CALIZAYA EFRAIN",
+          "servicio": 1
+        },
+        {
+          "cuenta": "13130204;1;102/21;130",
+          "descServicio": "Recaudacion deuda EMI en BS.",
+          "detalle": "INGLES-Oficina Central EMI",
+          "moneda": 1,
+          "nombre": "COLQUE CALIZAYA EFRAIN",
+          "servicio": 1
+        },
+        {
+          "cuenta": "13130204;4;4MOODLE-1;441",
+          "descServicio": "Recaudacion deuda EMI en BS.",
+          "detalle": "OTROS CURSOS ESPECIALES-Unidad Academica - Cochabamba",
+          "moneda": 1,
+          "nombre": "COLQUE CALIZAYA EFRAIN",
+          "servicio": 1
+        }
+      ],
+      "fechaOperativa": 20220721,
+      "nroOperacion": 71878
+    }
+  ]
+}
+```
+
 ## Creators
 
 **Creator 1**
