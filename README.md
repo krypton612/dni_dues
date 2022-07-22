@@ -39,14 +39,10 @@ This repository allows you to search for information on students from the Bolivi
 
 
 ```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
+├── go.mod
+├── go.sum
+├── main.go
+└── README.md
 ```
 
 ## Creators
